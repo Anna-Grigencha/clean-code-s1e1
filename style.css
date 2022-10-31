@@ -22,7 +22,7 @@
   text-align: center;
 }
 }
-.centered-main-page-element {
+.wrapper-main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -93,7 +93,7 @@ h3 {
 }
 
 /* New Task */
-.section-name-new-task {
+.section-name-add {
   display: block;
   margin: 0 0 20px;
 }
