@@ -18,27 +18,38 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
+    listItem.classList.add("link");
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
+    checkBox.classList.add("checkbx");
+
     //label
     var label=document.createElement("label");//label
+    label.classList.add("lbl");
+
     //input (text)
     var editInput=document.createElement("input");//text
+    editInput.classList.add("input-text");
+    label.classList.add("task");
+
     //button.edit
     var editButton=document.createElement("button");//edit button
 
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
+    deleteButtonImg.classList.add("delite-image");
 
     label.innerText=taskString;
-    label.className='task';
+    //label.className='task';
+    label.classList.add("task");
 
     //Each elements, needs appending
     checkBox.type="checkbox";
     editInput.type="text";
-    editInput.className="task";
+    //editInput.className="task";
+    editInput.classList.add("task");
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="edit";
