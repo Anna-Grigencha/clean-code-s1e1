@@ -18,10 +18,13 @@
 }
 
 @media (max-width: 768px) {
+
 .section-matrix {
   text-align: center;
 }
+
 }
+
 .wrapper-main {
   display: block;
   width: 500px;
@@ -66,6 +69,7 @@ h3 {
 .delete:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .section-name {
   color: #333;
@@ -118,7 +122,6 @@ h3 {
 .delete {
   vertical-align: middle;
 }
-
 .checkbx {
   margin: 0 10px;
 }
@@ -150,12 +153,10 @@ h3 {
 .link .input-text {
   display: none;
 }
-
 .edit-mode .input-text {
   display: inline-block;
   width: 224px;
 }
-
 .edit-mode .lbl {
   display: none;
 }
