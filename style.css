@@ -2,7 +2,7 @@
 .page {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
 }
 .header__wrapper-matrix {
   width: 500px;
@@ -65,13 +65,13 @@ h3 {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   cursor: pointer;
 }
 .add__btn,
 .edit,
 .delete:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -90,10 +90,10 @@ h3 {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
+  border: 1px solid #ddd;
   background: #FFF;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   color: #888;
 }
 .input-text:focus {
